@@ -39,8 +39,6 @@ project(':demo-common') {
 
 project(':demo-db'){
 	dependencies {
-		compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.2.2.RELEASE'
-		compile group: 'org.springframework.boot', name: 'spring-boot-starter-freemarker', version: '2.2.2.RELEASE'
 		compile project(':demo-common')
     	//如果需要使用数据库,可以在此处添加数据库依赖,以下是Mybatis和Mysql的相关依赖
     	//compile group: 'org.mybatis.spring.boot', name: 'mybatis-spring-boot-starter', version: '2.0.0'
